@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #29CF52;
+}
+
+::selection {
+     background-color: var(--primary-color);
+    color: #111111;
+ }
+
+body {
+  background-color: #111111;
+}
+
+li {
+  color: #EBEBEB;
+}
+
+/* h1 {
+  font-family: Coolvetica;
+} */
+
+.home-title {
+  flex: 2.5 2.5 0 !important;
+}
+
+.home-image {
+ flex: 3 3 0 !important;
+}
