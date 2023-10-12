@@ -1,0 +1,29 @@
+[
+    {
+      "img": "src/assets/skills/icons/HTML.png",
+      "title": "HTML"
+    },
+    {
+        "img": "src/assets/skills/icons/CSS.png",
+        "title": "CSS"
+      },
+      {
+        "img": "src/assets/skills/icons/JS.png",
+        "title": "JavaScript"
+      },
+      {
+        "img": "src/assets/skills/icons/React.png",
+        "title": "React"
+      },
+      {
+        "img": "src/assets/skills/icons/angular.png",
+        "title": "HTML"
+      },
+      {
+        "img": "src/assets/skills/icons/kotlin.png",
+        "title": "Kotlin"
+      }
+
+
+  ]
+  

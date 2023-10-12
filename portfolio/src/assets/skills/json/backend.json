@@ -1,0 +1,21 @@
+[
+    {
+      "img": "src/assets/skills/icons/Laravel.png",
+      "title": "Laravel"
+    },
+    {
+        "img": "src/assets/skills/icons/Springboot.png",
+        "title": "Springboot"
+      },
+      {
+        "img": "src/assets/skills/icons/php.png",
+        "title": "PHP"
+      },
+      {
+        "img": "src/assets/skills/icons/nodejs.png",
+        "title": "Node JS"
+      }
+
+
+  ]
+  
