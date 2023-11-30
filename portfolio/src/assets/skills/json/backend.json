@@ -1,0 +1,21 @@
+[
+    {
+      "img": "./icons/Laravel.png",
+      "title": "Laravel"
+    },
+    {
+        "img": "./icons/Springboot.png",
+        "title": "Springboot"
+      },
+      {
+        "img": "./icons/php.png",
+        "title": "PHP"
+      },
+      {
+        "img": "./icons/nodejs.png",
+        "title": "Node JS"
+      }
+
+
+  ]
+  

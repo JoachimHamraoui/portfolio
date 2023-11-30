@@ -1,0 +1,24 @@
+[
+    {
+      "img": "./icons/photoshop.png",
+      "title": "Adobe Photoshop"
+    },
+    {
+        "img": "./icons/illustrator.png",
+        "title": "Adobe Illustrator"
+      },
+      {
+        "img": "./icons/ae.png",
+        "title": "Adobe After Effects"
+      },
+      {
+        "img": "./icons/xd.png",
+        "title": "Adobe XD"
+      },
+      {
+        "img": "./icons/Figma.png",
+        "title": "Figma"
+      }
+
+  ]
+  

@@ -1,0 +1,147 @@
+[
+    {
+      "id": 0,
+      "name": "Halftone Posters",
+      "description": "This is a collection of Halftone posters I made mostly to train my Photoshop skills. I have used some of my different passions such as film, music, wrestling and manga for subjects for these posters.",
+      "shortdescription": "This is a collection of Halftone posters I made mostly to train my Photoshop skills…",
+      "web": true,
+      "design": false,
+      "technologies": ["Photoshop"],
+      "madeby": [
+        {
+            "name": "Joachim Hamraoui",
+            "role": "Graphic Designer",
+            "github": ""
+        }
+      ],
+      "thumbnail": "../../design/halftone/bray.jpg",
+      "thumbnaillg": "../../design/halftone/bray.jpg",
+      "images": [
+        {
+          "id": 0,
+          "src": "../../design/halftone/mfdoom.jpg"
+        },
+        {
+          "id": 1,
+          "src": "../../design/halftone/tomie2.jpg"
+        },
+        {
+          "id": 2,
+          "src": "../../design/halftone/bray.jpg"
+        },
+        {
+          "id": 3,
+          "src": "../../design/halftone/yuyuhakusho.jpg"
+        },
+        {
+          "id": 4,
+          "src": "../../design/halftone/bouya.jpg"
+        },
+        {
+          "id": 5,
+          "src": "../../design/halftone/ippo.jpg"
+        },
+        {
+          "id": 6,
+          "src": "../../design/halftone/kekra.jpg"
+        }
+      ]
+    },
+
+    {
+        "id": 1,
+        "name": "Le Collectif",
+        "description": "Le Collectif is a social media team which reviews manga & comics. They present and review different things they read or present authors. \n \n I am myself apart of this project as one of the two designers who are responsible for our artistic direction.",
+        "shortdescription": "Le Collectif is a social media team which reviews manga & comics…",
+        "web": true,
+        "design": false,
+        "technologies": ["Figma", "Illustrator", "Photoshop"],
+        "madeby": [
+          {
+              "name": "Joachim Hamraoui",
+              "role": "Designer & Copywriter",
+              "github": null
+          },
+          {
+              "name": "Haikel B.",
+              "role": "Designer & Copywriter",
+              "github": null
+          },
+          {
+              "name": "Ilyas Dergal",
+              "role": "Copywriter",
+              "github": null
+          },
+          {
+              "name": "Nathan Issad",
+              "role": "Copywriter",
+              "github": null
+          },
+          {
+              "name": "Amin Cherqi",
+              "role": "Copywriter",
+              "github": null
+          },
+          {
+              "name": "Samuel Bohbot",
+              "role": "Copywriter",
+              "github": null
+          },
+          {
+              "name": "Sacha W",
+              "role": "Copywriter",
+              "github": null
+          }
+        ],
+        "website": "",
+        "github": "https://github.com/EHB-MCT/dev4-course-project-bilal-jojo-dev",
+        "thumbnail": "../../design/collectif/thumbnail.jpg",
+        "thumbnaillg": "../../design/collectif/thumbnail-large.jpg",
+        "images": [
+          {
+            "id": 0,
+            "src": "../../design/collectif/hippocrate.jpg"
+          },
+          {
+            "id": 1,
+            "src": "../../design/collectif/aoashi.jpg"
+          },
+          {
+            "id": 2,
+            "src": "../../design/collectif/aoashi-mag.jpg"
+          },
+          {
+            "id": 3,
+            "src": "../../design/collectif/dai-mag.jpg"
+          },
+          {
+            "id": 4,
+            "src": "../../design/collectif/kengan1.jpg"
+          },
+          {
+            "id": 5,
+            "src": "../../design/collectif/kengan2.jpg"
+          },
+          {
+            "id": 6,
+            "src": "../../design/collectif/oceanrush.jpg"
+          },
+          {
+            "id": 7,
+            "src": "../../design/collectif/SPC.jpg"
+          },
+          {
+            "id": 8,
+            "src": "../../design/collectif/zonefantome.jpg"
+          },
+          {
+            "id": 9,
+            "src": "../../design/collectif/dai-mag2.jpg"
+          }
+
+        ]
+      }
+
+
+  ]
+  

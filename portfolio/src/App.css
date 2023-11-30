@@ -2,6 +2,10 @@
     --primary-color: #29CF52;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 ::selection {
      background-color: var(--primary-color);
     color: #111111;
@@ -26,3 +30,31 @@ li {
 .home-image {
  flex: 3 3 0 !important;
 }
+
+nav {
+  z-index: 999;
+  padding: 6px;
+}
+
+.web {
+  margin-top: 112px !important;
+  width: 100% !important;
+}
+
+
+.detail img * {
+  width: 100% !important;
+}
+
+p {
+  line-height: 1.6 !important;  
+}
+
+/* h3:hover {
+  font-weight: 600;
+  transition: font-weight 0.5s ease-in-out !important;
+  -webkit-transition: font-weight 0.5s ease-in-out !important;
+  -moz-transition: font-weight 0.5s ease-in-out !important;
+  -ms-transition: font-weight 0.5s ease-in-out !important;
+  -o-transition: font-weight 0.5s ease-in-out !important;
+} */

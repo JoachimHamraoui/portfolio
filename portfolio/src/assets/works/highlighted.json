@@ -1,0 +1,91 @@
+[
+    {
+      "id": 0,
+      "name": "Halftone Posters",
+      "description": "This is a collection of Halftone posters I made mostly to train my photoshop skills. I have used some of my different passions such as film, music and manga for subjects for these posters.",
+      "shortdescription": "This is a collection of Halftone posters I made mostly to train my Photoshop skills…",
+      "web": true,
+      "design": false,
+      "technologies": ["Photoshop"],
+      "link": "/design/project/0",
+      "madeby": [
+        {
+            "name": "Joachim Hamraoui",
+            "role": "Graohic Designer",
+            "github": ""
+        }
+      ],
+      "thumbnail": "../../design/halftone/bray.jpg",
+      "images": [
+        {
+          "id": 0,
+          "src": "../../design/halftone/mfdoom.png"
+        },
+        {
+          "id": 1,
+          "src": "../../design/halftone/tomie2.png"
+        },
+        {
+          "id": 2,
+          "src": "../../design/halftone/bray.png"
+        },
+        {
+          "id": 3,
+          "src": "../../design/halftone/yuyuhakusho.png"
+        },
+        {
+          "id": 4,
+          "src": "../../design/halftone/bouya.png"
+        },
+        {
+          "id": 5,
+          "src": "../../design/halftone/ippo.png"
+        },
+        {
+          "id": 6,
+          "src": "../../design/halftone/kekra.png"
+        }
+      ]
+    },
+    {
+        "id": 0,
+        "name": "Planning Tool",
+        "description": "Planning Tool lets students register themselves and choose 3 courses to follow. Planning is dynamic and is adapted for each student. Administrators can manage users, teachers, courses and plan a number of sessions for each course in an instant. \n \n Using Laravel Sail, the goal was to create a back-end application in a Docker Container. Tables in the database have some relationships between eachother but nothing complex. \n \n This was created for my Back-End course I took in 2023",
+        "shortdescription": "Planning Tool lets students register themselves and choose 3 courses to follow. Planning is dynamic…",
+        "web": true,
+        "design": false,
+        "technologies": ["Laravel Sail", "Docker", "PHP"],
+        "link": "/web/project/0",
+        "madeby": [
+          {
+              "name": "Joachim Hamraoui",
+              "role": "Developer",
+              "github": "https://github.com/JoachimHamraoui"
+          }
+        ],
+        "website": "",
+        "github": "https://github.com/JoachimHamraoui/planning-tool",
+        "thumbnail": "../../web/planningtool/1.png",
+        "images": [
+          {
+            "id": 0,
+            "src": "../../web/planningtool/1.png"
+          },
+          {
+            "id": 1,
+            "src": "../../web/planningtool/2.png"
+          },
+          {
+            "id": 2,
+            "src": "../../web/planningtool/3.png"
+          },
+          {
+            "id": 3,
+            "src": "../../web/planningtool/4.png"
+          }
+        ]
+      }
+
+
+  ]
+  
