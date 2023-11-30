@@ -1,22 +1,22 @@
 [
     {
-      "img": "src/assets/skills/icons/photoshop.png",
+      "img": "./icons/photoshop.png",
       "title": "Adobe Photoshop"
     },
     {
-        "img": "src/assets/skills/icons/illustrator.png",
+        "img": "./icons/illustrator.png",
         "title": "Adobe Illustrator"
       },
       {
-        "img": "src/assets/skills/icons/ae.png",
+        "img": "./icons/ae.png",
         "title": "Adobe After Effects"
       },
       {
-        "img": "src/assets/skills/icons/xd.png",
+        "img": "./icons/xd.png",
         "title": "Adobe XD"
       },
       {
-        "img": "src/assets/skills/icons/Figma.png",
+        "img": "./icons/Figma.png",
         "title": "Figma"
       }
 

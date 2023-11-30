@@ -1,26 +1,26 @@
 [
     {
-      "img": "src/assets/skills/icons/HTML.png",
+      "img": "./icons/HTML.png",
       "title": "HTML"
     },
     {
-        "img": "src/assets/skills/icons/CSS.png",
+        "img": "./icons/CSS.png",
         "title": "CSS"
       },
       {
-        "img": "src/assets/skills/icons/JS.png",
+        "img": "./icons/JS.png",
         "title": "JavaScript"
       },
       {
-        "img": "src/assets/skills/icons/React.png",
+        "img": "./icons/React.png",
         "title": "React"
       },
       {
-        "img": "src/assets/skills/icons/angular.png",
+        "img": "./icons/angular.png",
         "title": "HTML"
       },
       {
-        "img": "src/assets/skills/icons/kotlin.png",
+        "img": "./icons/kotlin.png",
         "title": "Kotlin"
       }
 

@@ -1,18 +1,18 @@
 [
     {
-      "img": "src/assets/skills/icons/Laravel.png",
+      "img": "./icons/Laravel.png",
       "title": "Laravel"
     },
     {
-        "img": "src/assets/skills/icons/Springboot.png",
+        "img": "./icons/Springboot.png",
         "title": "Springboot"
       },
       {
-        "img": "src/assets/skills/icons/php.png",
+        "img": "./icons/php.png",
         "title": "PHP"
       },
       {
-        "img": "src/assets/skills/icons/nodejs.png",
+        "img": "./icons/nodejs.png",
         "title": "Node JS"
       }
 
