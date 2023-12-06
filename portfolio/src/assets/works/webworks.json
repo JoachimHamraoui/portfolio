@@ -1,6 +1,43 @@
 [
     {
       "id": 0,
+      "name": "Chat App",
+      "description": "Join a room and chat with friends! Choose a username and a room name and let everyone join the fun. Make sure to create a unique room name to talk with your friends ! \n \n This chat application was made with ReactJS for the client-side and Socket.io and a little bit of Express for the server-side.",
+      "shortdescription": "Join a room and chat with friends! Choose a username and a room name and let everyone join the fun.…",
+      "web": true,
+      "design": false,
+      "technologies": ["React", "Websockets", "Tailwind", "Express"],
+      "madeby": [
+        {
+            "name": "Joachim Hamraoui",
+            "role": "Developer",
+            "github": "https://github.com/JoachimHamraoui"
+        }
+      ],
+      "website": "https://chat-app-k9ue.onrender.com/",
+      "github": "https://github.com/JoachimHamraoui/chat-app",
+      "thumbnail": "../../web/chat/thumbnail.png",
+      "images": [
+        {
+          "id": 0,
+          "src": "../../web/chat/1.png"
+        },
+        {
+          "id": 1,
+          "src": "../../web/chat/2.png"
+        },
+        {
+          "id": 2,
+          "src": "../../web/chat/3.png"
+        },
+        {
+          "id": 3,
+          "src": "../../web/chat/4.png"
+        }
+      ]
+    },
+    {
+      "id": 1,
       "name": "Planning Tool",
       "description": "Planning Tool lets students register themselves and choose 3 courses to follow. Planning is dynamic and is adapted for each student. Administrators can manage users, teachers, courses and plan a number of sessions for each course in an instant. \n \n Using Laravel Sail, the goal was to create a back-end application in a Docker Container. Tables in the database have some relationships between eachother but nothing complex. \n \n This was created for my Back-End course I took in 2023",
       "shortdescription": "Planning Tool lets students register themselves and choose 3 courses to follow. Planning is dynamic…",
@@ -36,9 +73,8 @@
         }
       ]
     },
-
     {
-        "id": 1,
+        "id": 2,
         "name": "Medialab Loan",
         "description": "Users can register and log in to the system. They then get to see a list of items and copies of said items with a description, serial number etc. Users can then click on the 'Reserveer' button to go to a reservation details page where users can choose when they need the item and when they are to return it.  \n \n Users that log in or make a loan should receive an e-mail sent to the e-mail they use to register and login.  \n \n This project was made in collaboration between two students as a course project for the course Develoment IV at Erasmushogeschool in Brussels.",
         "shortdescription": "Users can register and log in to the system. Users can then choose an object…",
@@ -76,10 +112,10 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Dynamic Transitions",
         "description": "The point of this project was to learn how to implement dynamic transitions between pages and implement more animation with animation libraries such as Framer Motion. As content I used my passion for manga. \n \n This is an Expert Lab project made for school.",
-        "shortdescription": "Tjis is an Expert Lab project made for school.…",
+        "shortdescription": "The point of this project was to learn how to implement dynamic transitions between pages…",
         "web": true,
         "design": false,
         "technologies": ["React", "Framer Motion", "Material UI", "Tailwind"],
@@ -113,10 +149,10 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "Kapüt Quiz",
         "description": "As a Quizmaster, you are able to create a Quiz and add questions to it. As a player, you can also play all the quizzes that have been made. \n \n This is an Expert Lab project made for school.",
-        "shortdescription": "Tjis is an Expert Lab project made for school.…",
+        "shortdescription": "As a Quizmaster, you are able to create a Quiz and add questions…",
         "web": true,
         "design": false,
         "technologies": ["React", "Firebase", "Tailwind"],
@@ -150,10 +186,10 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "React Three Fiber",
         "description": "Using React and React Three Fiber, I created a customisable environment around the 3D model of my choice. \n \n This is an Expert Lab project made for school.",
-        "shortdescription": "Tjis is an Expert Lab project made for school.…",
+        "shortdescription": "Using React and React Three Fiber, I created a customisable environment…",
         "web": true,
         "design": false,
         "technologies": ["React", "Three Fiber", "Tailwind"],

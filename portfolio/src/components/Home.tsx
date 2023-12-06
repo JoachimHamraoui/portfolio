@@ -123,7 +123,7 @@ function Home() {
                 <div className="w-full">
                   <h3 className="text-white text-xl font-mont">2016-2018</h3>
                   <h4 className="text-white">Diploma 3de graad</h4>
-                  <h2 className="text-green text-2xl font-display font-bold my-1">Multimedia Technieken</h2>
+                  <h2 className="text-green text-2xl font-display font-bold my-1">Multimedia</h2>
                   <h3 className="text-white text-xl font-mont">Don Bosco Halle</h3>
                 </div>
               </Reveal>
@@ -133,7 +133,7 @@ function Home() {
                 <div className="w-full">
                   <h3 className="text-white text-xl font-mont">2018-2019</h3>
                   <h4 className="text-white">Diploma Se-n-Se Specialisatiejaar</h4>
-                  <h2 className="text-green text-2xl font-display font-bold my-1">Interactieve Multimedia</h2>
+                  <h2 className="text-green text-2xl font-display font-bold my-1">Interactieve Multimedia Technieken</h2>
                   <h3 className="text-white text-xl font-mont">Don Bosco Halle</h3>
                 </div>
               </Reveal>
@@ -142,7 +142,7 @@ function Home() {
               <Reveal>
                 <div className="w-full">
                   <h3 className="text-white text-xl font-mont">2019</h3>
-                  <h4 className="text-white">Stagiar & Studentenjob</h4>
+                  <h4 className="text-white">Stagiair & Studentenjob</h4>
                   <h2 className="text-green text-2xl font-display font-bold my-1">Webmaster CCX</h2>
                   <h3 className="text-white text-xl font-mont">Colruyt Group Halle</h3>
                 </div>
