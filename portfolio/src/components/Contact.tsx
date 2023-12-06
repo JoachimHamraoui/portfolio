@@ -56,7 +56,7 @@ function Contact() {
                             </Reveal>
                             <form onSubmit={handleSubmit} className="w-auto flex flex-col">
                                 <Reveal>
-                                <input type="text" id="user_name" name="user_name" className="w-full border-b-2 border-bottom border-green text-white text-xl bg-black px-4 py-2 mb-4 focus:outline-none focus:shadow-outline" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
+                                <input type="text" id="user_name" name="user_name" className="w-full border-b-2 border-bottom border-green text-white text-xl bg-transparent px-4 py-2 mb-4 focus:outline-none focus:shadow-outline" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
                                 </Reveal>
                                <Reveal>
                                <input type="text" id="user_email" name="user_email" className="w-full border-b-2 border-bottom border-green text-white text-xl bg-black px-4 py-2 mb-4 focus:outline-none focus:shadow-outline" placeholder="Subject" value={subject} onChange={(e) => setSubject(e.target.value)} />
