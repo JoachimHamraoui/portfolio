@@ -20,28 +20,38 @@ function ProjectDetail() {
     <div>
       <div className=" w-full h-screen flex justify-center items-center" style={{ marginBottom: '8em'}}>
         {selectedProject ? (
-          <div className="w-9/12 h-full flex flex-row">
+          <div className="sm:w-10/12 xl:w-9/12 h-full flex flex-row">
           <div className="w-full py-4 web">
               <Link to="/web" className="text-green text-2xl"><FaArrowLeft /></Link>
                 <div className="w-full flex flex-col">
-                    <div className="w-full flex flex-row mt-10 mb-8">
+                    <div className="w-full sm:hidden xl:flex flex-row mt-10 sm:mb-4 xl:mb-8">
                         <div className="w-full flex flex-col pr-4">
-                          <div className="w-full h-60 mr-6 truncate mb-8">
+                          <div className="w-full sm:h-20 xl:h-60 mr-6 truncate mb-8">
                               <Reveal><img className="w-full" srcSet={`${selectedProject.thumbnail}`} src={`${selectedProject.thumbnail}`} alt="" /></Reveal>
                           </div>
                           <Reveal>
-                            <h2 className="text-5xl text-green font-display pb-2 font-bold" >{selectedProject.name}</h2>
+                            <h2 className="sm:text-4xl xl:text-5xl text-green font-display pb-2 font-bold" >{selectedProject.name}</h2>
                             </Reveal>
                         </div>
                     </div>
-                    <div className="w-full flex flex-row">
-                          <div className="w-8/12 mr-10">
+                    <div className="w-full sm:flex xl:hidden flex-row mt-10 sm:mb-4 xl:mb-8">
+                        <div className="w-full flex flex-col pr-4">
+                          <div className="w-full sm:h-28 xl:h-60 mr-6 truncate mb-8">
+                              <Reveal><img className="w-full" srcSet={`${selectedProject.thumbnail}`} src={`${selectedProject.thumbnail}`} alt="" /></Reveal>
+                          </div>
+                          <Reveal>
+                            <h2 className="sm:text-4xl xl:text-5xl text-green font-display pb-2 font-bold" >{selectedProject.name}</h2>
+                            </Reveal>
+                        </div>
+                    </div>
+                    <div className="w-full xl:flex xl:flex-row sm:flex-col">
+                          <div className="sm:w-full xl:w-8/12 mr-10">
                             <Reveal><h3 className="text-3xl text-white font-mont pb-2">Project Info</h3></Reveal>
                             <Reveal><p className="text-white text-xl font-regular text-sm mt-2 mb-7" style={{ whiteSpace: 'pre-line' }}>{selectedProject.description}</p></Reveal>
                             <Reveal><h3 className="text-3xl text-white font-mont pb-2">Images</h3></Reveal>
                             <div className="w-full flex flex-row mt-2 flex-wrap">
                             {selectedProject.images.map((item, index) => (
-                                          <div key={index} className="w-1/2 pr-4">
+                                          <div key={index} className="sm:w-full xl:w-1/2 pr-4">
                                             <Reveal>
                                             <img className="w-full mb-10" src={item.src} srcSet={item.src} alt="" />
                                             </Reveal>
@@ -49,7 +59,7 @@ function ProjectDetail() {
                                       ))}
                             </div>
                           </div>
-                          <div className="w-4/12 flex flex-col float-left">
+                          <div className="sm:w-full xl:w-4/12 flex flex-col float-left">
                             <div className="mb-8">
                               <Reveal><h3 className="text-3xl text-white font-mont pb-2">Technologies</h3></Reveal>
                               <Reveal>

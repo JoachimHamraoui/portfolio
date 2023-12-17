@@ -14,7 +14,7 @@ function Home() {
   return (
     <div>
       <div className=" w-full h-screen flex justify-center items-center">
-        <div className="sm:w-11/12 md:w-9/12 h-full flex flex-row items-center justify-center">
+        <div className="sm:w-11/12 md:w-9/12 h-full flex flex-row items-center justify-center sm:hidden md:flex">
           <div className="w-full flex flex-col home-title sm:rotate-90 md:rotate-0 sm:items-center xl:items-start">
             <Reveal>
               <h1 className="sm:text-8xl xl:text-5xl text-green font-display h-full home-title font-bold">
@@ -41,46 +41,68 @@ function Home() {
             </Reveal>
           </div>
         </div>
+        <div className="sm:w-11/12 md:w-9/12 h-full flex flex-row items-center justify-center sm:flex md:hidden">
+          <div className="w-full flex flex-col home-title sm:rotate-90 md:rotate-0 sm:items-center xl:items-start">
+            <Reveal>
+              <h1 className="sm:text-8xl xl:text-5xl text-green font-display h-full home-title font-bold">
+                Joachim Hamraoui
+              </h1>
+            </Reveal>
+            <Reveal>
+              <p className="text-white xl:text-xl font-mont sm:hidden md:block">Front-End Developer & Graphic Designer.</p>
+            </Reveal>
+            <Reveal>
+              <a href="#skills" className="sm:hidden md:block">
+                <button className="text-lg font-display border-solid border-2 border-green text-green py-2 px-8 rounded-full flex flex- row items-center mt-10 transition-text duration-300 hover:text-black transition-bg duration-300 hover:bg-green"><span className="mr-4">Learn more</span> <FaArrowDown /></button>
+              </a>
+            </Reveal>
+          </div>
+          <div className="home-image sm:hidden md:block">
+            <Reveal>
+              <img src={HomePic} alt="Joachim Hamraoui" />
+            </Reveal>
+          </div>
+        </div>
       </div>
       <div className="sm:w-10/12 xl:w-9/12 mt-14 flex flex-col m-auto">
         <div className="w-full py-4">
           <Reveal><h2 id="skills" className="text-4xl text-green font-display font-bold">Skills</h2></Reveal>
           <div className="w-full flex sm:flex-col xl:flex-row">
-            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl">
+            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl px-1.5">
               <Reveal><h6>Front-End</h6></Reveal>
               <div className="w-full flex flex-row flex-wrap">
-                {FrontEnd.map((item, index) => (
-                  <div className="w-1/3 p-5 pl-0 sm:py-2 xl:py-5" key={index}>
-                    <Reveal>
-                      <img className="transition-hover duration-300 hover:p-1" srcSet={`${item.img}`} src={`${item.img}`} alt={`${item.title}`} />
-                    </Reveal>
+                {FrontEnd.map((item) => (
+                  <Reveal>
+                    <div className="flex flex-row mt-2 flex-wrap">
+                      <span className="text-sm bg-black font-mont border-solid border-2 border-white text-white py-1 px-4 mt-2 rounded-full font-semibold mb-2 mr-2 transition-text duration-300 hover:text-black transition-bg hover:bg-green transition-border hover:border-green">{item.title}</span>
                   </div>
+                  </Reveal>
                 ))}
               </div>
             </div>
 
-            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl">
+            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl px-1.5">
               <Reveal><h6 className="">Back-End</h6></Reveal>
               <div className="w-full flex flex-row flex-wrap">
-                {BackEnd.map((item, index) => (
-                  <div className="w-1/3 p-6 pl-0 sm:py-2 xl:py-5" key={index}>
-                    <Reveal>
-                      <img className="transition-hover duration-300 hover:p-1" srcSet={`${item.img}`} src={`${item.img}`} alt={`${item.title}`} />
-                    </Reveal>
+              {BackEnd.map((item) => (
+                  <Reveal>
+                    <div className="flex flex-row mt-2 flex-wrap">
+                      <span className="text-sm bg-black font-mont border-solid border-2 border-white text-white py-1 px-4 mt-2 rounded-full font-semibold mb-2 mr-2 transition-text duration-300 hover:text-black transition-bg hover:bg-green transition-border hover:border-green">{item.title}</span>
                   </div>
+                  </Reveal>
                 ))}
               </div>
             </div>
 
-            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl">
+            <div className="sm:w-12/12 xl:w-1/3 mt-10 text-white font-mont font-bold text-xl px-1.5">
               <Reveal><h6 className="">Other</h6></Reveal>
               <div className="w-full flex flex-row flex-wrap">
-                {Other.map((item, index) => (
-                  <div className="w-1/3 p-6 pl-0 sm:py-2 xl:py-5" key={index}>
-                    <Reveal>
-                      <img className="transition-hover duration-300 hover:p-1" srcSet={`${item.img}`} src={`${item.img}`} alt={`${item.title}`} />
-                    </Reveal>
+              {Other.map((item) => (
+                  <Reveal>
+                    <div className="flex flex-row mt-2 flex-wrap">
+                      <span className="text-sm bg-black font-mont border-solid border-2 border-white text-white py-1 px-4 mt-2 rounded-full font-semibold mb-2 mr-2 transition-text duration-300 hover:text-black transition-bg hover:bg-green transition-border hover:border-green">{item.title}</span>
                   </div>
+                  </Reveal>
                 ))}
               </div>
             </div>

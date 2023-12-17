@@ -12,12 +12,15 @@
         "title": "JavaScript"
       },
       {
+        "title": "Typescript"
+      },
+      {
         "img": "./icons/React.png",
         "title": "React"
       },
       {
         "img": "./icons/angular.png",
-        "title": "HTML"
+        "title": "Angular"
       },
       {
         "img": "./icons/kotlin.png",

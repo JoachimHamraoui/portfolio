@@ -24,10 +24,20 @@ function ProjectDetail() {
             <div className="w-full py-4 web">
               <Link to="/design" className="text-green text-2xl"><FaArrowLeft /></Link>
               <div className="w-full flex flex-col">
-                <div className="w-full flex flex-row mt-10 sm:mb-4 xl:mb-8">
+                <div className="w-full sm:hidden xl:flex flex-row mt-10 sm:mb-4 xl:mb-8">
                   <div className="w-full flex flex-col pr-4">
-                    <div className="w-full sm:h-28 xl:h-60 mr-6 truncate mb-8">
+                    <div className="w-full sm:h-20 xl:h-60 mr-6 truncate mb-8">
                       <Reveal><img className="w-full" srcSet={`${selectedProject.thumbnail}`} src={`${selectedProject.thumbnail}`} alt="" /></Reveal>
+                    </div>
+                    <Reveal>
+                      <h2 className="sm:text-4xl xl:text-5xl text-green font-display pb-2 font-bold" >{selectedProject.name}</h2>
+                    </Reveal>
+                  </div>
+                </div>
+                <div className="w-full sm:flex xl:hidden flex-row mt-5 sm:mb-0 xl:mb-8">
+                  <div className="w-full flex flex-col pr-4">
+                    <div className="w-full sm:h-32 xl:h-60 mr-6 truncate mb-2">
+                      <Reveal><img className="w-full" srcSet={`${selectedProject.thumbnaillg}`} src={`${selectedProject.thumbnaillg}`} alt="" /></Reveal>
                     </div>
                     <Reveal>
                       <h2 className="sm:text-4xl xl:text-5xl text-green font-display pb-2 font-bold" >{selectedProject.name}</h2>
@@ -100,7 +110,7 @@ function ProjectDetail() {
                     </div>
                   </div>
                 </div>
-
+                
                 <div className="w-full flex flex-row sm:flex xl:hidden">
                   <div className="sm:w-full">
                     <Reveal><h3 className="text-3xl text-white font-mont pb-2">Project Info</h3></Reveal>
