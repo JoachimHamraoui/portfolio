@@ -8,8 +8,19 @@ import WebProjectDetail from './WebProjectDetail';
 import Design from './Design';
 import DesignProjectDetail from './DesignProjectDetail';
 import Contact from './Contact';
+import { RiMenu3Fill } from "react-icons/ri";
+import { RxCross1 } from "react-icons/rx";
+import { useState } from 'react';
+import { Reveal } from './Reveal';
+
 
 function Navigation() {
+
+  const [click, setClick] = useState(false);
+  const handleClick = () => {
+    setClick(!click)
+  }
+
   return (
     <Router>
       <div>
@@ -39,6 +50,43 @@ function Navigation() {
             </li>
           </ul>
         </nav>
+
+        <div className='w-full p-8 fixed font-display text-md md:hidden flex-row sm:flex justify-end hamburger-btn z-50'>
+          <ul className='w-1/3 flex justify-end'>
+            <li className=' text-3xl text-green' onClick={handleClick}>
+              {click ? <RxCross1 /> : <RiMenu3Fill/>}
+            </li>
+          </ul>
+        </div>
+
+        {click && 
+            <div className='hamburger-nav z-40 fixed bg-black'>
+              <ul className='fixed w-full h-full bg-black px-8 py-8 flex'>
+                <div className='w-full h-3/6 flex flex-col justify-end mt-14'>
+                <li className='flex-auto flex justify-end'>
+                  <Reveal>
+                    <Link to="/" className='text-4xl font-display font-bold text-white z-50' onClick={handleClick}>Home</Link>
+                  </Reveal>
+                </li>
+                <li className='flex-auto flex justify-end'>
+                  <Reveal>
+                    <Link to="/web" className='text-4xl font-display font-bold text-white' onClick={handleClick}>Web</Link>
+                  </Reveal>
+                </li>
+                <li className='flex-auto flex justify-end'>
+                  <Reveal>
+                    <Link to="/design" className='text-4xl font-display font-bold text-white' onClick={handleClick}>Design</Link>
+                  </Reveal>
+                </li>
+                <li className='flex-auto flex justify-end'>
+                  <Reveal>
+                    <Link to="/contact" className='text-4xl font-display font-bold text-white' onClick={handleClick}>Contact</Link>
+                  </Reveal>
+                </li>
+                </div>
+              </ul>
+            </div>
+          }
 
         <Routes>
           <Route path="/" element={<Home />} />

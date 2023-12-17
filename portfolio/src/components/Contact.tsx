@@ -48,9 +48,9 @@ function Contact() {
     return (
         <div>
             <div className=" w-full h-screen flex flex-col justify-center items-center">
-                <div className="w-9/12 h-full flex flex-row items-center">
+                <div className="sm:w-10/12 xl:w-9/12 h-full flex flex-row items-center">
                     <div className="w-full py-4 mt-5">
-                        <div className="w-1/2">
+                        <div className="sm:w-full xl:w-1/2">
                             <Reveal>
                                 <h1 className="text-4xl text-green font-display pb-2 font-bold">Contact</h1>
                             </Reveal>
